@@ -1,6 +1,6 @@
 # Pizzeria Bella Napoli - Sito Web Vetrina
 
-![Anteprima del sito Pizzeria Bella Napoli][https://github.com/lucyscoding-asmr/PizzeriaBellaNapoli/blob/main/bella-napoli-desktop.png][https://github.com/lucyscoding-asmr/PizzeriaBellaNapoli/blob/main/bella-napoli-mobile.png]
+![Anteprima del sito Pizzeria Bella Napoli](https://github.com/lucyscoding-asmr/PizzeriaBellaNapoli/blob/main/bella-napoli-desktop.png)(https://github.com/lucyscoding-asmr/PizzeriaBellaNapoli/blob/main/bella-napoli-mobile.png)
 
 Un sito web moderno e completamente responsive per una pizzeria fittizia, "Bella Napoli". Questo progetto è stato creato per dimostrare competenze nello sviluppo front-end, con un focus su un design accattivante e funzionalità interattive.
 
