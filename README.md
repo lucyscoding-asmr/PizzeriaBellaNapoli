@@ -4,7 +4,7 @@
 
 Un sito web moderno e completamente responsive per una pizzeria fittizia, "Bella Napoli". Questo progetto è stato creato per dimostrare competenze nello sviluppo front-end, con un focus su un design accattivante e funzionalità interattive.
 
-**➡️ Visualizza la Live Demo:** [**Inserisci qui il link quando il deploy sarà completato!**]
+**➡️ Visualizza la Live Demo:** [https://singular-sable-2a97a9.netlify.app/]
 
 ---
 
@@ -37,7 +37,7 @@ Un sito web moderno e completamente responsive per una pizzeria fittizia, "Bella
 Questo progetto è stato creato come pezzo da aggiungere al mio portfolio di sviluppatrice front-end. Lo scopo era quello di costruire da zero un sito web realistico, dimostrando la capacità di tradurre un design in codice funzionante e di implementare funzionalità dinamiche con JavaScript.
 
 ---
-
+## 
 ## ✍️ Autore
 
 -   **Lucia Buondonno**
