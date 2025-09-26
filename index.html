@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzeria Bella Napoli - Sito Demo Professionale</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Pizzeria Bella Napoli</h1>
+            <p>La vera pizza della tradizione nel cuore di Modena.</p>
+            
+            <div class="hero-buttons">
+                <a href="tel:+3912345678" class="cta-button">Chiama e Ordina</a>
+                <a href="https://deliveroo.it/" target="_blank" class="cta-button deliveroo">Ordina su Deliveroo</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="punti-di-forza" class="container">
+            <h2>Perché La Nostra Pizza È Speciale</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-flame"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 10.941c2.333 -3.308 .167 -7.823 -1 -8.941c0 3.395 -2.235 5.299 -3.667 6.706c-1.43 1.408 -2.333 3.621 -2.333 5.588c0 3.704 3.134 6.706 7 6.706s7 -3.002 7 -6.706c0 -1.712 -1.232 -4.403 -2.333 -5.588c-2.084 3.353 -3.257 3.353 -4.667 2.235" /></svg>
+                    <h3>Forno a Legna</h3>
+                    <p>Il segreto di un calore intenso e di un sapore inconfondibile che solo la cottura tradizionale può dare.</p>
+                </div>
+                <div class="feature-card">
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-pizza"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 21.5c-3.04 0 -5.952 -.714 -8.5 -1.983l8.5 -16.517l8.5 16.517a19.09 19.09 0 0 1 -8.5 1.983z" /><path d="M5.38 15.866a14.94 14.94 0 0 0 6.815 1.634a14.944 14.944 0 0 0 6.502 -1.479" /><path d="M13 11.01v-.01" /><path d="M11 14v-.01" /></svg>
+                    <h3>Ingredienti Selezionati</h3>
+                    <p>Utilizziamo solo i migliori prodotti del territorio e materie prime di alta qualità per un gusto autentico.</p>
+                </div>
+                <div class="feature-card">
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-clock-hour-3"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /><path d="M12 12h3.5" /><path d="M12 7v5" /></svg>
+                    <h3>Lievitazione Lenta</h3>
+                    <p>Il nostro impasto riposa per ore, garantendo una pizza incredibilmente leggera, fragrante e facile da digerire.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="recensioni" class="container">
+            <h2>Dicono di Noi</h2>
+
+            <div class="rating-summary">
+                <div class="rating-stars">
+                    <span>★★★★★</span>
+                </div>
+                <p class="rating-text">
+                    Valutazione media <strong>4.8 su 5</strong> basata su migliaia di recensioni
+                </p>
+            </div>
+
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <p>"Pizza sublime con impasto leggero, ingredienti di qualità, e personale sempre sorridente e disponibile."</p>
+                    <strong>- Cristina S. (da Google)</strong>
+                </div>
+                <div class="review-card">
+                    <p>"Le loro pizze al padellino sono qualcosa di eccezionale. Una delle migliori pizzerie di Modena, se non la migliore. Servizio veloce e cordiale."</p>
+                    <strong>- Andrea M. (da Google)</strong>
+                </div>
+                <div class="review-card">
+                    <p>"Sono cliente abituale e la qualità è sempre al top. Un ambiente familiare dove sentirsi a casa. Super consigliato!"</p>
+                    <strong>- Simona P. (da Google)</strong>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu" class="container">
+            <h2>Il Nostro Menù</h2>
+            <div class="menu-tabs">
+                <button class="tab-button active" onclick="openMenu(event, 'Speciali')">Le Nostre Speciali</button>
+                <button class="tab-button" onclick="openMenu(event, 'Padellino')">Pizza al Padellino</button>
+                <button class="tab-button" onclick="openMenu(event, 'Cornicione')">Cornicione Ripieno</button>
+                <button class="tab-button" onclick="openMenu(event, 'Classiche')">Le Classiche</button>
+                <button class="tab-button" onclick="openMenu(event, 'Bevande')">Bevande</button>
+            </div>
+            <div id="Speciali" class="menu-content active">
+                <div class="menu-grid">
+                    <div class="menu-item"><strong>MORTAZZA</strong><span>€ 15,00</span></div>
+                    <div class="menu-item"><strong>NAPOLI</strong><span>€ 15,00</span></div>
+                    <div class="menu-item"><strong>VECCHIA MODENA</strong><span>€ 15,50</span></div>
+                    <div class="menu-item"><strong>CAPRICCIOSA</strong><span>€ 16,00</span></div>
+                    <div class="menu-item"><strong>PARMIGIANA</strong><span>€ 16,00</span></div>
+                    <div class="menu-item"><strong>SICILIANA</strong><span>€ 16,00</span></div>
+                    <div class="menu-item"><strong>LA GAMBARDELLA</strong><span>€ 16,00</span></div>
+                </div>
+            </div>
+            <div id="Padellino" class="menu-content">
+                <div class="menu-grid">
+                    <div class="menu-item"><strong>MARGHERITA AL PADELLINO</strong><span>€ 9,50</span></div>
+                    <div class="menu-item"><strong>MARGHERITA GIALLA AL PADELLINO</strong><span>€ 10,50</span></div>
+                    <div class="menu-item"><strong>SALSICCIA E FRIARIELLI</strong><span>€ 14,00</span></div>
+                    <div class="menu-item"><strong>PADELLINO CANTABRICO</strong><span>€ 22,50</span></div>
+                    <div class="menu-item"><strong>PADELLINO VECCHIA MODENA</strong><span>€ 18,00</span></div>
+                    <div class="menu-item"><strong>PADELLINO CARBONARA</strong><span>€ 15,50</span></div>
+                    <div class="menu-item"><strong>PADELLINO BRANCHI</strong><span>€ 15,50</span></div>
+                </div>
+            </div>
+            <div id="Cornicione" class="menu-content">
+                <div class="menu-grid">
+                    <div class="menu-item"><strong>TROISI</strong><span>€ 16,00</span></div>
+                    <div class="menu-item"><strong>MARADONA</strong><span>€ 16,00</span></div>
+                    <div class="menu-item"><strong>NAPUL'È</strong><span>€ 15,50</span></div>
+                    <div class="menu-item"><strong>TOTÒ</strong><span>€ 15,50</span></div>
+                    <div class="menu-item"><strong>MARMELO</strong><span>€ 16,00</span></div>
+                    <div class="menu-item"><strong>LE DUE SICILIE</strong><span>€ 16,00</span></div>
+                </div>
+            </div>
+            <div id="Classiche" class="menu-content">
+                <div class="menu-grid">
+                     <div class="menu-item"><strong>MARGHERITA</strong><span>€ 7,50</span></div>
+                     <div class="menu-item"><strong>MARINARA</strong><span>€ 6,50</span></div>
+                     <div class="menu-item"><strong>CRUDO, RUCOLA E SCAGLIE</strong><span>€ 10,50</span></div>
+                     <div class="menu-item"><strong>4 FORMAGGI</strong><span>€ 9,00</span></div>
+                     <div class="menu-item"><strong>TONNO E CIPOLLA</strong><span>€ 8,50</span></div>
+                     <div class="menu-item"><strong>ORTOLANA</strong><span>€ 9,50</span></div>
+                     <div class="menu-item"><strong>CAPRICCIOSA</strong><span>€ 9,50</span></div>
+                     <div class="menu-item"><strong>PARMIGIANA</strong><span>€ 9,50</span></div>
+                </div>
+            </div>
+            <div id="Bevande" class="menu-content">
+                <div class="menu-grid">
+                    <div class="menu-item"><strong>ACQUA NATURALE/FRIZZANTE</strong><span>€ 3,50</span></div>
+                    <div class="menu-item"><strong>COCA COLA / FANTA / SPRITE</strong><span>€ 3,50</span></div>
+                    <div class="menu-item"><strong>CHINOTTO LURISIA</strong><span>€ 4,00</span></div>
+                    <div class="menu-item"><strong>NASTRO AZZURRO 0,30cl</strong><span>€ 4,00</span></div>
+                    <div class="menu-item"><strong>NASTRO AZZURRO 0,40cl</strong><span>€ 5,00</span></div>
+                    <div class="menu-item"><strong>RAFFO 0,30cl</strong><span>€ 4,50</span></div>
+                    <div class="menu-item"><strong>RAFFO 0,40cl</strong><span>€ 5,50</span></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="galleria" class="container">
+            <h2>Un Assaggio Visivo</h2>
+            <div class="gallery-grid">
+                <img src="https://images.pexels.com/photos/2147491/pexels-photo-2147491.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Pizza gourmet">
+                <img src="https://images.pexels.com/photos/845811/pexels-photo-845811.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Forno a legna">
+                <img src="https://images.pexels.com/photos/10790638/pexels-photo-10790638.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Tavolo apparecchiato">
+                <img src="https://images.pexels.com/photos/827528/pexels-photo-827528.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Pizza al padellino">
+            </div>
+        </section>
+
+        <section id="contatti" class="container">
+            <h2>Vieni a Trovarci o Contattaci</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Indirizzo</h3>
+                    <p>Via Roma, 13,<br>41121 Modena MO</p>
+                    
+                    <h3>Orari di Apertura</h3>
+                    <p>
+                        Lunedì: Chiuso<br>
+                        Martedì: 19:00 – 23:00<br>
+                        Mercoledì: 19:00 – 23:00<br>
+                        Giovedì: 19:00 – 23:00<br>
+                        Venerdì: 19:00 – 00:00<br>
+                        Sabato: 12:30 – 15:00 / 19:00 – 00:00<br>
+                        Domenica: 12:30 – 15:00 / 19:00 – 23:30
+                    </p>
+                    
+                    <h3>Telefono & WhatsApp</h3>
+                    <div class="phone-container">
+                        <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-whatsapp"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" /><path d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1" /></svg>
+                        <a href="https://wa.me/391234556789" target="_blank">123 456 7890</a>
+                    </div>
+                </div>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d90828.84877117364!2d10.839330334408642!3d44.65014752501237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477fef12dd4964e1%3A0x96751e7d492b7f28!2sModena%20MO!5e0!3m2!1sit!2sit!4v1758891544012!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+     <footer class="minimal-footer">
+        <p>Sito web dimostrativo realizzato da <strong>Lucia Buondonno | Web Design & Sviluppo</strong></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
