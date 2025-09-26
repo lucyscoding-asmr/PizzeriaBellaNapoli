@@ -40,5 +40,5 @@ Questo progetto è stato creato come pezzo da aggiungere al mio portfolio di svi
 
 ## ✍️ Autore
 
--   **Lucy Buondonno**
+-   **Lucia Buondonno**
 -   **Email:** lucyscodingasmr@gmail.com
